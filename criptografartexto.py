@@ -1,4 +1,4 @@
-criptografartexto
+#criptografartexto
 
 # #tela sem nada#
 # import tkinter
@@ -8,11 +8,11 @@ criptografartexto
 # janela.mainloop() 
 # ------------------------------
 # ------------------------------
-nomedoaquivo = input(str)
-print(nomedoaquivo)
+# nomedoaquivo = input(str)
+# print(nomedoaquivo)
 
 ### de srt pra binario####
-test_str = "GeeksforGeeks"
+test_str = "O nome do meu filho vai ser Goku"
 print("The original string is : " + str(test_str)) 
 res = ''.join(format(i, 'b') for i in bytearray(test_str, encoding ='utf-8')) 
 print("The string after binary conversion : " + str(res)) 
